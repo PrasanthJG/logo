@@ -1,0 +1,160 @@
+.employeeName{
+    margin-top: 100px;
+}
+
+.employeeName .employee-container {
+    margin: 20px ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employeeName .employee-actions {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.employeeName .button-edit{
+    margin-right: 50px;
+}
+.employeeName .total-count {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.employeeName .create-employee, .employeeAdd {
+    margin-left: 10px;
+}
+
+.employeeName .button-create {
+    padding: 10px 15px;
+    background: linear-gradient(
+    to right,
+    #39c8eb,
+    #5ef1b1
+  );
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.employeeName .button-create:hover {
+    color: #ffffff;
+    background: linear-gradient(
+    to right,
+    #5ef1b1,
+    #39c8eb
+  );
+}
+.employeeName .button-Search {
+    padding: 10px 15px;
+    background: linear-gradient(
+    to right,
+    #86cef8,
+    #25a6ec
+  );
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.employeeName .button-Search:hover {
+    color: #ffffff;
+    background: linear-gradient(
+    to right,
+    #25a6ec,
+    #86cef8
+  );
+}
+.employeeName button {
+    padding: 10px 15px;
+    background: linear-gradient(
+    to right,
+    #a48bed,
+    #4e79f9
+  );
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.employeeName button:hover {
+    background: linear-gradient(
+    to right,
+    #4e79f9,
+    #a48bed
+  );
+    color: #fdfdfd;
+}
+
+.employeeName .search-section {
+    display: flex;
+    align-items: center;
+}
+
+.employeeName .search-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.employeeName .employee-grid {
+    margin-top: 20px;
+}
+
+.employeeName table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.employeeName th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employeeName th {
+    background-color: #007bff;
+    color: white;
+}
+
+.employeeName tr:hover {
+    background-color: #f1f1f1;
+}
+
+.employeeName .edit-employee {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.employeeName .edit-employee input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.employeeName .edit-employee button {
+    background-color: #28a745;
+}
+
+.employeeName .edit-employee button:hover {
+    background-color: #218838;
+}

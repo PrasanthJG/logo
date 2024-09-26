@@ -1,0 +1,71 @@
+.employee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.employee form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee input[type="text"],
+input[type="email"],
+input[type="file"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.employee label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.employee input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+.employee button[type="submit"] {
+ background: linear-gradient(
+    to right,
+    #a1eb39,
+    #6bf14a,
+    #28d642,
+    #24f168
+  );
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.employee button[type="submit"]:hover {
+    
+  background: linear-gradient(
+    to right,
+    #a1eb39,
+    #6bf14a,
+    #28d642,
+    #24f168
+  );
+}
